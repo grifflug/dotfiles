@@ -1,0 +1,24 @@
+[user]
+	name = Joshua Head
+	email = joshua.head@outlook.com
+[push]
+	default = simple
+[filter "media"]
+	clean = git-media-clean %f
+	smudge = git-media-smudge %f
+[core]	
+	editor = subl -n -w
+	excludesfile = /Users/iRC/.gitignore_global
+[push]
+	default = simple
+[color]
+	ui = true
+[alias]
+	lol = log --oneline --graph --decorate
+	st = status -s
+	co = checkout
+	cob = !git checkout -b $1 && git branch
+	cam = commit -am
+	as = !git add --all && git st
+[credential]
+	helper = osxkeychain

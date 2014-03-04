@@ -1,0 +1,6 @@
+#!/bin/bash
+
+# Pass in the username@server
+ssh_copy_id() {
+  cat ~/.ssh/id_rsa.pub | ssh "$@" 'cat >> ~/.ssh/authorized_keys' ;
+}
