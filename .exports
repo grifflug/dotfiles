@@ -1,0 +1,8 @@
+#!/bin/bash
+
+#exports
+
+MYBASHDIR='/Users/$default_username/myBash/'
+DOWNLOADS='/Users/jahead/Downloads'
+DOCKETPRO='/Users/jahead/Documents/projects/bms-digital-docket-book'
+DOCKETSQL='/Users/jahead/Library/Application Support/DockMan'
