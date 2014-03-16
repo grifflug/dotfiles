@@ -1,4 +1,7 @@
-for file in ~/.{bash_prompt,exports,aliases,functions,git-completion.bash,profile}; do
+myBash='myBash' 
+
+
+for file in ~/$myBash.{secrets,bash_prompt,exports,aliases,functions,git-completion.bash,profile}; do
     [ -r "$file" ] && source "$file"
     echo "Loading $file"
 done
