@@ -1,8 +1,10 @@
 #!/bin/bash
 
 alias BASH_EDIT='subl -nw ~/.bash_profile; echo NOW OPENING .bash_profile in SUBLIME TEXT' # Edit .bash_profile Alias
+alias MYBASH='cd /Users/$default_username/.dotfiles/'
 
-alias MYBASH='cd /Users/$default_username/myBash/'
+
+#projects 
 alias PROJECTS='cd /Users/$default_username/Documents/Projects'
 alias CPROJECTS='cd /Users/$default_username/Documents/Projects/C++'
 alias PPROJECTS='cd /Users/$default_username/Documents/Projects/PHP'
