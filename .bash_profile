@@ -4,7 +4,7 @@
 myBash='.dotfiles' 
 
 
-declare -a DOTFILES_ARR=(~/$myBash/.bash_prompt ~/$myBash/.exports ~/$myBash/.aliases ~/$myBash/.functions ~/$myBash/.git-completion.bash ~/$myBash/.profile)
+declare -a DOTFILES_ARR=(~/$myBash/.secrets ~/$myBash/.bash_prompt ~/$myBash/.exports ~/$myBash/.aliases ~/$myBash/.functions ~/$myBash/.git-completion.bash ~/$myBash/.profile)
 
 for file in ${DOTFILES_ARR[@]}; do
   echo "Loading $file"

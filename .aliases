@@ -1,19 +1,19 @@
 #!/bin/bash
 
 #bash stuff
-alias BASH_EDIT='subl --project /Users/$default_username/.dotfiles/dotfiles.sublime-project; echo NOW OPENING .bash_profile in SUBLIME TEXT' # Edit .bash_profile Alias
-alias MYBASH='cd /Users/$default_username/.dotfiles/'
+alias BASH_EDIT='subl --project $HOME/.dotfiles/dotfiles.sublime-project; echo NOW OPENING .bash_profile in SUBLIME TEXT' # Edit .bash_profile Alias
+alias MYBASH='cd $HOME/.dotfiles/'
 
 
 #projects 
-alias PROJECTS='cd /Users/$default_username/Documents/Projects'
-alias CPROJECTS='cd /Users/$default_username/Documents/Projects/C++'
-alias PPROJECTS='cd /Users/$default_username/Documents/Projects/PHP'
-alias RPROJECTS='cd /Users/$default_username/Documents/Projects/Ruby'
+alias PROJECTS='cd $HOME/Documents/Projects'
+alias CPROJECTS='cd $HOME/Documents/Projects/C++'
+alias PPROJECTS='cd $HOME/Documents/Projects/PHP'
+alias RPROJECTS='cd /Users/Documents/Projects/Ruby'
 
 #ssh stuff
-alias SSHCONFIG_EDIT='subl -o /Users/$default_username/.ssh/config'
-alias SSHCONFIG='cd /Users/$default_username/.ssh/'
+alias SSHCONFIG_EDIT='subl -o $HOME/.ssh/config'
+alias SSHCONFIG='cd $HOME/.ssh/'
 
 # extra stuff from @rjchatfield
 
