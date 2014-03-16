@@ -1,8 +1,24 @@
 myBash
 ======
 
+## ~/myBash/.secrets
 
-You need to add a .secrets file for all the variable and secret stuff
+This handles all the variables that make your bash your own
 
-default_username=''
+``` Bash
+#!/bin/bash
+
+default_username='YOURUSERNAME'
+
+```
+
+The only exception is the /.gitconfig
+
+you need to update your name in their
+
+
+You also need to symlink your.bash_profile
+and your .gitconfig into your home directory
+
+I'll write a script later
 
