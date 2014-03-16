@@ -1,7 +1,7 @@
-myBash
+dotFiles
 ======
 
-## ~/myBash/.secrets
+## ~/.dotfiles/.secrets
 
 This handles all the variables that make your bash your own
 
