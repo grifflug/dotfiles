@@ -1,4 +1,4 @@
-myBash='myBash' 
+myBash='.dotfiles' 
 
 
 for file in ~/$myBash/.{secrets,bash_prompt,exports,aliases,functions,git-completion.bash,profile}; do
