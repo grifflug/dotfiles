@@ -9,7 +9,7 @@ alias MYBASH='cd $HOME/.dotfiles/'
 alias PROJECTS='cd $HOME/Documents/Projects'
 alias CPROJECTS='cd $HOME/Documents/Projects/C++'
 alias PPROJECTS='cd $HOME/Documents/Projects/PHP'
-alias RPROJECTS='cd /Users/Documents/Projects/Ruby'
+alias RPROJECTS='cd $HOME/Documents/Projects/Ruby'
 
 #ssh stuff
 alias SSHCONFIG_EDIT='subl -o $HOME/.ssh/config'
@@ -39,7 +39,7 @@ alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resource
 
 # IP addresses
 alias ip="dig +short myip.opendns.com @resolver1.opendns.com"
-alias localip="ipconfig getifaddr en1"
+alias localip="ipconfig getifaddr en0"   #You need to make sure this is set to the right adapter ;/ need a better solution
 
 # Many flavours of sudo
 alias yolo='sudo'
