@@ -14,7 +14,7 @@ default_username='YOURUSERNAME'
 
 The only exception is the /.gitconfig
 
-you need to update your name in their
+you need to update your name in there
 
 
 You also need to symlink your.bash_profile
