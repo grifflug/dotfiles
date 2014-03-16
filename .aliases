@@ -1,6 +1,7 @@
 #!/bin/bash
 
-alias BASH_EDIT='subl -nw ~/.bash_profile; echo NOW OPENING .bash_profile in SUBLIME TEXT' # Edit .bash_profile Alias
+#bash stuff
+alias BASH_EDIT='subl --project /Users/$default_username/.dotfiles/dotfiles.sublime-project; echo NOW OPENING .bash_profile in SUBLIME TEXT' # Edit .bash_profile Alias
 alias MYBASH='cd /Users/$default_username/.dotfiles/'
 
 
@@ -9,3 +10,6 @@ alias PROJECTS='cd /Users/$default_username/Documents/Projects'
 alias CPROJECTS='cd /Users/$default_username/Documents/Projects/C++'
 alias PPROJECTS='cd /Users/$default_username/Documents/Projects/PHP'
 alias RPROJECTS='cd /Users/$default_username/Documents/Projects/Ruby'
+
+#ssh stuff
+alias SSHCONFIG='subl -o /Users/$default_username/.ssh/config'
