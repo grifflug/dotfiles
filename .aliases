@@ -12,4 +12,5 @@ alias PPROJECTS='cd /Users/$default_username/Documents/Projects/PHP'
 alias RPROJECTS='cd /Users/$default_username/Documents/Projects/Ruby'
 
 #ssh stuff
-alias SSHCONFIG='subl -o /Users/$default_username/.ssh/config'
+alias SSHCONFIG_EDIT='subl -o /Users/$default_username/.ssh/config'
+alias SSHCONFIG='cd /Users/$default_username/.ssh/'
