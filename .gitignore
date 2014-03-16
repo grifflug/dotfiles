@@ -1,3 +1,6 @@
+#secrets
+.secrets
+
 # Compiled Object files
 *.slo
 *.lo

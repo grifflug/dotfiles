@@ -3,10 +3,10 @@
 alias BASH_EDIT='subl -nw ~/.bash_profile; echo NOW OPENING .bash_profile in SUBLIME TEXT' # Edit .bash_profile Alias
 
 
-alias PROJECTS='cd /Users/jahead/Documents/Projects'
-alias CPROJECTS='cd /Users/jahead/Documents/Projects/C++'
-alias PPROJECTS='cd /Users/jahead/Documents/Projects/PHP'
-alias RPROJECTS='cd /Users/jahead/Documents/Projects/Ruby'
+alias PROJECTS='cd /Users/$default_username/Documents/Projects'
+alias CPROJECTS='cd /Users/$default_username/Documents/Projects/C++'
+alias PPROJECTS='cd /Users/$default_username/Documents/Projects/PHP'
+alias RPROJECTS='cd /Users/$default_username/Documents/Projects/Ruby'
 DOWNLOADS='/Users/jahead/Downloads'
 DOCKETPRO='/Users/jahead/Documents/projects/bms-digital-docket-book'
 DOCKETSQL='/Users/jahead/Library/Application Support/DockMan'

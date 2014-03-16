@@ -8,7 +8,7 @@
 	smudge = git-media-smudge %f
 [core]	
 	editor = subl -n -w
-	excludesfile = /Users/iRC/.gitignore_global
+	excludesfile = /Users/jahead/myBash/.gitignore_global
 [push]
 	default = simple
 [color]
