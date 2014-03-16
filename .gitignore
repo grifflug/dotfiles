@@ -14,3 +14,7 @@
 *.lai
 *.la
 *.a
+
+#Sublime Projects 
+dotfiles.sublime-project
+dotfiles.sublime-workspace
