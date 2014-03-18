@@ -24,3 +24,5 @@ dotfiles.sublime-workspace
 # and run the script to install git completion 
 
 .git-completion.bash
+
+private/*
