@@ -2,20 +2,40 @@
 
 DOTFILES=$HOME/.dotfiles
 PRIVATE=$DOTFILES/private
+DEFAULTSUBREPO="git@github.com:grifflug/private.git"
 
 if [ -d "$PRIVATE" ]; then
   rm -Rf $PRIVATE;
 fi
 
-git rm -f private
+
+#Make this create and fill in the .profile file.
+# echo "What is your default User: "
+# read input_variable
+# echo "You entered: $input_variable";
+
 
 echo "Please enter the address to your git that has your settings: "
-read input_variable
-echo "You entered: $input_variable"
+read gitRepo_variable
+echo "You entered: $gitRepo_variable";
 
-#swap to a 
 
-git clone $input_variable private 
+#this needs to be changed to submodule?
+#Though there is a problem of changing the remote ref a submodule that is already
+#been added. Help.
+if [[ -z "$gitRepo_variable" ]]; then
+    git clone $DEFAULTSUBREPO private; 
+    cd $PRIVATE;
+    git remote rm origin
+    cd $DOTFILES;
+else 
+    git clone $gitRepo_variable private;
+fi;
+
+#install git comletion
+curl https://gist.githubusercontent.com/jahead/9578308/raw/install-git-completion.sh -OL
+source $DOTFILES/install-git-completion.sh
+rm $DOTFILES/install-git-completion.sh
 # Make sure everything is up-to-date
 
 unlink ~/.bash_profile;
